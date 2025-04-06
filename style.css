@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h1 {
+    font-size: 2.5rem;
+    color: #047857;
+}
+nav button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: 2px solid #047857;
+    background-color: white;
+    color: #047857;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.section {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 15px;
+    background-color: #047857;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.brands a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.brands img {
+    width: 80px;
+    height: auto;
+}
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+}
